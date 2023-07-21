@@ -8,3 +8,4 @@ export async function getAllUserNotes() {
 export async function createNote(newNote) {
   return sendRequest(`${BASE_URL}`, 'POST', newNote);
 }
+// /filter all the games of user game
